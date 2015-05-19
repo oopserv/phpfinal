@@ -14,6 +14,9 @@ DEFINE ('dbname', 'users');
 
 	$conn = new mysqli(servername, username, password, dbname)
 	OR die('Could not connect to DB '.
+
+
+		
 		$conn->error());
 
 
